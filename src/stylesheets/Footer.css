@@ -1,0 +1,26 @@
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 4vh 0vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lavender;
+}
+
+.social_logo {
+    height: 4vh;
+    transition-duration: 500ms;
+}
+
+.social_logo:hover {
+    height: 4vh;
+    filter: opacity(.5);
+}
+
+#social_section {
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

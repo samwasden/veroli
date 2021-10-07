@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../content/fonts/Cinzel-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Emblema';
+    src: url('../content/fonts/EmblemaOne-Regular.ttf');
+}
+
+.title {
+    font-family: 'Emblema';
+}
