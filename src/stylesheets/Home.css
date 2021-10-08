@@ -1,0 +1,31 @@
+.music_player {
+    width: 20vw;
+    padding: 4vh 4vw;
+}
+
+.home_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 74vh;
+}
+
+.music_box {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .music_box {
+        flex-direction: column;
+    }
+
+    .music_player {
+        width: 80vw;
+    }
+
+    
+}

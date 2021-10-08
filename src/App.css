@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Asar';
+    src: url('./content/fonts/Asar-Regular.ttf');
+}
+
+
+* {
+    font-family: 'Asar';
+}

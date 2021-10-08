@@ -1,8 +1,26 @@
 .header {
-    width: 100%;
+    width: 100vw;
+    height: 14vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: lavender;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: inherit;
+}
+
+
+@media screen and (max-width: 767px) {
+    .subheader {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }

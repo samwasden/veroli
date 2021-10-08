@@ -1,0 +1,19 @@
+.bio_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 74vh;
+}
+
+.bio_text {
+    text-align: justify;
+    padding: 4vh 4vw;
+    width: 20vw;
+}
+
+@media screen and (max-width: 767px) {
+    .bio_text {
+        width: 70vw;
+    }
+}

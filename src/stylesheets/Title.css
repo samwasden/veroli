@@ -9,5 +9,9 @@
 }
 
 .title {
+    height: 4vh;
     font-family: 'Emblema';
+    font-size: 32pt;
+    padding: 4vh 2vw;
+    user-select: none;
 }

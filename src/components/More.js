@@ -1,12 +1,15 @@
 import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
+import '../stylesheets/More.css'
 
 function More() {
     return (
         <div>
             <Header />
-            <h1>More</h1>
+            <div className='more_content'>
+                
+            </div>
             <Footer />
         </div>
     )

@@ -1,0 +1,33 @@
+.dropdown_menu {
+    position: absolute;
+    top: 14vh;
+    padding: 4vh, 0;
+    border-bottom: 2px solid lavender;
+}
+
+.dropdown_list {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    text-decoration: none;
+}
+
+.dropdown_item {
+    margin-top: 4vh;
+    width: 90vw;
+    padding: 0, 5vw;
+    height: 6vh;
+    list-style: none;
+    text-decoration: none;
+}
+
+.droplink {
+    width: 90vw;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    transition-duration: 500ms;
+}

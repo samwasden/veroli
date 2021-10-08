@@ -1,0 +1,15 @@
+#hamburger_icon {
+    height: 6vh;
+}
+
+#exit_icon {
+    height: 4vh;
+}
+
+#hamburger_button {
+    width: 20vw;
+    padding: 6vh 2vw 2vh 2vw;
+    background: none;
+    border: none;
+    outline: none;
+}

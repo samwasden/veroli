@@ -18,7 +18,7 @@ export default function Footer() {
                 <a className='social_link' href='https://www.instagram.com/oliverwasden/' target='_blank' rel='noreferrer'><img className='social_logo' src={instagram} alt='instagram'></img></a>
                 <a className='social_link' href='https://twitter.com/veroliveroli' target='_blank' rel='noreferrer'><img className='social_logo' src={twitter} alt='twitter'></img></a>
                 <a className='social_link' href='https://www.tiktok.com/@ver0li?' target='_blank' rel='noreferrer'><img className='social_logo' src={tiktok} alt='tiktok'></img></a>
-                <a className='social_link' href='https://www.youtube.com/channel/UChJQUbO4QaVlfqUEtUB4SHg' target='_blank' rel='noreferrer'><img className='social_logo' src={youtube} alt='youtube'></img></a>
+                <a className='social_link' href='https://www.youtube.com/channel/UCuwsj8vq3OU5trcHxcjMrqg' target='_blank' rel='noreferrer'><img className='social_logo' src={youtube} alt='youtube'></img></a>
             </div>
         </div>
     )

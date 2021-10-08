@@ -1,14 +1,19 @@
-@font-face {
-    font-family: 'Asar';
-    src: url('../content/fonts/Asar-Regular.ttf');
+.nav_section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 2vh 0;
 }
 
 .navigation {
     width: 50vw;
+    height: 3vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
+    padding: 0%;
 }
 
 .navigator {
@@ -17,7 +22,6 @@
 }
 
 .navlink {
-    font-family: 'Asar';
     font-size: 12pt;
     text-decoration: none;
     color: black;
@@ -28,3 +32,8 @@
     filter: opacity(.5);
 }
 
+@media screen and (max-width: 767px) {
+    .navigation {
+        width: 90vw;
+    }
+}

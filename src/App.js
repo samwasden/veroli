@@ -1,4 +1,5 @@
 import React from 'react';
+import './stylesheets/Reset.css'
 import './App.css';
 import { Route } from 'react-router';
 import Home from './components/Home';
