@@ -10,7 +10,7 @@ export default function HamburgerMenu(props) {
             <button id='hamburger_button' onClick={() => {
                 menu ? setmenu(false) : setmenu(true);
             }}>
-                {menu ? <img id='exit_icon' src={exit} alt='EXIT'></img> : <img id='hamburger_icon' src={hamburger} alt='MENU'></img>}
+                {menu ? <img id='exit_icon' className='menu_icon' src={exit} alt='EXIT'></img> : <img id='hamburger_icon' className='menu_icon' src={hamburger} alt='MENU'></img>}
             </button>
         </div>
     )

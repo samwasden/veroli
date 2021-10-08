@@ -28,10 +28,6 @@
     transition-duration: 500ms;
 }
 
-.navlink:hover {
-    filter: opacity(.5);
-}
-
 @media screen and (max-width: 767px) {
     .navigation {
         width: 90vw;

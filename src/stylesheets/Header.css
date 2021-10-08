@@ -5,7 +5,37 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: lavender;
+    background-color: whitesmoke;
+    opacity: .6;
+}
+
+.dark_header {
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: rgba(40, 40, 40, 0.5);
+}
+
+.dark_header .navlink {
+    color: whitesmoke;
+    opacity: .8;
+}
+
+.dark_header .dropdown_menu {
+    border-bottom: 2px solid rgba(40, 40, 40, 0.5);
+}
+
+.dark_header .navlink:hover {
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.dark_header .menu_icon {
+    filter: invert(1);
 }
 
 .subheader {

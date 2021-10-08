@@ -5,12 +5,12 @@ import '../stylesheets/More.css'
 
 function More() {
     return (
-        <div>
-            <Header />
+        <div className='more'>
+            <Header mode='dark'/>
             <div className='more_content'>
                 
             </div>
-            <Footer />
+            <Footer mode='dark'/>
         </div>
     )
 }

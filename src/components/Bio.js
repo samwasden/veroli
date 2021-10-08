@@ -5,8 +5,8 @@ import '../stylesheets/Bio.css'
 
 function Bio() {
     return (
-        <div>
-            <Header />
+        <div className='bio'>
+            <Header mode='dark'/>
             <div className='bio_content'>
                 <div className='bio_text'>
                     <p>
@@ -22,7 +22,7 @@ function Bio() {
                     </p>
                 </div>
             </div>
-            <Footer />
+            <Footer mode='dark'/>
         </div>
     )
 }

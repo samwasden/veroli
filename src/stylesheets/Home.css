@@ -1,6 +1,14 @@
+.home {
+    background-image: url('../content/images/IMG_01.JPEG');
+    background-position: center;
+}
+
 .music_player {
     width: 20vw;
-    padding: 4vh 4vw;
+    padding: 4vh 2vw;
+    margin: 4vh 2vw;
+    color: whitesmoke;
+    background-color: rgba(40, 40, 40, 0.5);
 }
 
 .home_content {
@@ -8,10 +16,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 74vh;
+    min-height: 78vh;
 }
 
 .music_box {
+
     display: flex;
     width: 100vw;
     justify-content: space-between;

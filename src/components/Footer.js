@@ -8,9 +8,9 @@ import twitter from '../content/icons/twitter_icon.png';
 import tiktok from '../content/icons/tiktok_icon.png';
 import youtube from '../content/icons/youtube_icon.png';
 
-export default function Footer() {
+export default function Footer(props) {
     return (
-        <div className='footer'>
+        <div className={props.mode === 'light' ? 'footer' : 'dark_footer'}>
             <div className='footer_section' id='social_section'>
                 <a className='social_link' href='https://open.spotify.com/artist/07IUi8zBiFZOAikCBioS30' target='_blank' rel='noreferrer'><img className='social_logo' src={spotify} alt='spotify'></img></a>
                 <a className='social_link' href='https://music.apple.com/us/artist/veroli/39378020' target='_blank' rel='noreferrer'><img className='social_logo' src={appleMusic} alt='apple_music'></img></a>

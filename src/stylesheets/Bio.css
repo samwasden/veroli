@@ -1,9 +1,14 @@
+.bio {
+    background-image: url('../content/images/IMG_02.JPEG');
+    background-position: right center;
+}
+
 .bio_content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 74vh;
+    min-height: 78vh;
 }
 
 .bio_text {

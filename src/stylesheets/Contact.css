@@ -1,5 +1,10 @@
+.contact {
+    background-image: url('../content/images/IMG_06.JPEG');
+    background-position: center top;
+}
+
 .contact_content {
-    min-height: 74vh;
+    min-height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;

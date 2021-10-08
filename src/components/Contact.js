@@ -5,8 +5,8 @@ import '../stylesheets/Contact.css'
 
 function Contact() {
     return (
-        <div>
-            <Header />
+        <div className='contact'>
+            <Header mode='dark'/>
             <div className='contact_content'>
                 <div className='contact_info'>
                     <p>
@@ -27,7 +27,7 @@ function Contact() {
                     </p>
                 </div>
             </div>
-            <Footer />
+            <Footer mode='dark'/>
         </div>
     )
 }

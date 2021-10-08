@@ -7,8 +7,8 @@ import '../stylesheets/Lyrics.css'
 function Lyrics() {
     const [index, setindex] = useState(0)
     return (
-        <div>
-            <Header />
+        <div className='lyrics'>
+            <Header mode='dark'/>
             <div className='lyric_content'>
                 <div className='lyric_panel'>
 
@@ -18,7 +18,7 @@ function Lyrics() {
 
                 </div>
             </div>
-            <Footer />
+            <Footer mode='dark'/>
         </div>
     )
 }

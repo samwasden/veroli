@@ -1,3 +1,9 @@
+.more {
+    background-image: url('../content/images/IMG_04.JPEG');
+    background-size: cover;
+    background-position: center;
+}
+
 .more_content {
-    min-height: 74vh;
+    min-height: 78vh;
 }

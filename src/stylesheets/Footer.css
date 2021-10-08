@@ -1,11 +1,28 @@
 .footer {
     height: 4vh;
     width: 100%;
-    padding: 4vh 0vw;
+    padding: 2vh 0vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: lavender;
+    background-color: whitesmoke;
+    opacity: .6;
+}
+
+.dark_footer {
+    height: 4vh;
+    width: 100%;
+    padding: 2vh 0vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgba(40, 40, 40, 0.5);
+}
+
+.dark_footer .social_logo {
+    filter: invert(1);
+    opacity: .75;
 }
 
 .social_logo {
@@ -13,12 +30,20 @@
     transition-duration: 500ms;
 }
 
+.social_link {
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social_logo:hover {
-    filter: opacity(.5);
+    height: 4.5vh;
+    opacity: 1;
 }
 
 #social_section {
-    width: 20vw;
+    width: 26vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -30,6 +55,6 @@
     }
 
     #social_section {
-        width: 80vw;
+        width: 100vw;
     }
 }

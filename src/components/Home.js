@@ -5,8 +5,8 @@ import '../stylesheets/Home.css'
 
 function Home() {
     return (
-        <div>
-            <Header />
+        <div className='home'>
+            <Header mode='dark'/>
             <div className='home_content'>
                 <div className='music_box'>
                     <div className='music_player'>
@@ -19,7 +19,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer mode='dark'/>
         </div>
     )
 }
