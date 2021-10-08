@@ -36,5 +36,8 @@
         width: 80vw;
     }
 
+    .home {
+        background-position: 65% 60%;
+    }
     
 }

@@ -23,4 +23,8 @@
     .contact_info {
         width: 80vw;
     }
+
+    .contact {
+        background-position: 50% 10%;
+    }
 }

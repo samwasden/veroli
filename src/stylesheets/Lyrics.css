@@ -54,4 +54,8 @@
     .lyrics_box {
         width: 90vw;
     }
+
+    .lyrics {
+        background-position: 25%;
+    }
 }
